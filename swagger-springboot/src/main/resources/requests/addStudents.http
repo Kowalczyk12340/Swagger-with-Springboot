@@ -1,0 +1,19 @@
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Marcin",
+  "surname": "Kowalczyk"
+}
+
+###
+
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Jan",
+  "surname": "Nowak"
+}
